@@ -1,5 +1,4 @@
-# SUAP-EaD Django Theme
-
+# Python Packager
 
 ## How to build
 ```sh
