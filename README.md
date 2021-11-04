@@ -7,7 +7,7 @@ cd docker__python_packager
 # local build only
 ./release.sh -l 1.0.0
 # local build, send to Github, publish to PyPI
-./release.sh -a 1.3
+./release.sh -l 1.0.0
 ```
 
 # MIT License
