@@ -1,36 +1,12 @@
 # SUAP-EaD Django Theme
 
-```
-pip install suap_ead
-```
-
-Em ```settings.py```:
-
-Adicione a aplicação,```suap_ead```, à variável de configuração ```INSTALLED_APPS``` antes das aplicações do django:
-
-```
-INSTALLED_APPS = 'suap_ead',
-                 'django.contrib.admin',
-                 'django.contrib.auth',
-                 ......................
-```
-  
-Certifique-se de que está setada a variável ```STATIC_URL = '/static/'```.
-
-# suap_ead
-suap_ead
-
-## How to install 
-```sh
-pip install suap_ead
-```
 
 ## How to build
 ```sh
-git clone git@github.com:suap-ead/lib_suap_ead.git
-cd suap_ead
+git clone https://github.com/suap-ead/docker__python_packager.git
+cd docker__python_packager
 # local build only
-./release.sh -l 1.3
+./release.sh -l 1.0.0
 # local build, send to Github, publish to PyPI
 ./release.sh -a 1.3
 ```
