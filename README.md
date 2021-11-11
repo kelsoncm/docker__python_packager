@@ -2,7 +2,7 @@
 
 ## How to build
 ```sh
-git clone https://github.com/suap-ead/docker__python_packager.git
+git clone https://github.com/kelsoncm/docker__python_packager.git
 cd docker__python_packager
 # local build only
 ./release.sh -l 1.0.0
