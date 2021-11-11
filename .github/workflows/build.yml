@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ctezlifrn/python_packager
+          images: kelsoncm/python_packager
 
       - name: Build and push
         uses: docker/build-push-action@v2
